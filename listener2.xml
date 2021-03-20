@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="First suite">
+ 
+ 
+ <listeners>
+ 
+<listener class-name="com.Listener.Listeners">
+</listener>
+
+</listeners>
+
+<test name="please show">
+
+<classes>
+
+ <class name="com.Listener.AmazonShopping">
+ </class>
+ 
+</classes>
+
+</test>
+  
+  <!-- Test -->
+</suite>
